@@ -34,7 +34,7 @@ Add additional notes about how to deploy this on a live system
 
 * I recommend that you creat inital folder on desktop to make it easier.
 
-* make sure there are using the correct absolute path of the folder ex: SET wowdirlocationn=C:\Program Files (x86)\World of Warcraft)\_retail_\WTF
+* make sure there are using the correct absolute path of the folder ex: C:\Program Files (x86)\World of Warcraft)\_retail_\WTF
 
 * press save everytime before you start backing up
 ```
