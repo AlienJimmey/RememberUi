@@ -16,11 +16,10 @@ What things you need to install the software and how to install them
 working OS's are: windows.
 ```
 
-* World of Warcraft installed on your computer.(works as of patch 8.2)
+* World of Warcraft installed on your computer.(works as of patch 9.0.1)
 
-* beginner level batch script knowledge(if editing script). [Guide to Windows Batch Scripting](http://steve-jansen.github.io/guides/windows-batch-scripting/part-1-getting-started.html)
 
-* depending on where your World of Warcraft directory is located you might need to run the script as administrator.
+* depending on where your World of Warcraft directory is located you might need to run the program as administrator.
 
 ### Installing
 
@@ -35,22 +34,25 @@ Add additional notes about how to deploy this on a live system
 
 * I recommend that you creat inital folder on desktop to make it easier.
 
-* make sure there are no spaces inbetween = and path ex: SET wowdirlocationn=C:\Program Files (x86)\World of Warcraft)
+* make sure there are using the correct absolute path of the folder ex: SET wowdirlocationn=C:\Program Files (x86)\World of Warcraft)\_retail_\WTF
 
-* If you are promted with this, press D.
-```
-"Does c:something/something specify a file name
-or directory name on the target
-(F = file), (D = directory)? "
+* press save everytime before you start backing up
 ```
 
-* If u need to update the backup run .bat file again and press "a" for all when promted to replace all old backup files at once.
+```
 
-* right click the .bat file and click edit. it should open as a editable text file, this were we are going to config.
+* the from is where you enter your World of warcraft wtf folder
+* to/ past: is were u enter a existing folder where you wold it to past you backup to
+
+
 
 ## Built With
 
-* Windows batch script
+* java
+* javafx
+* gson
+* maven
+* maven shade
 
 ## Authors
 
@@ -67,7 +69,6 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE) f
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-* [twitch help article](https://help.twitch.tv/s/article/manually-backup-addons-and-settings-wow?language=en_US#Windows)
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
