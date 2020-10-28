@@ -1,4 +1,5 @@
 {
-  "sourceFileLocation": "C:\\Program Files (x86)\\World of Warcraft\\_retail_\\WTF",
-  "destinationFileLocation": "C:\\Users\\fredjino\\Desktop\\wow ui backup script\\mywowbackups\\bin"
+  "sourceFileLocation": "C:\\Users\\fredjino\\Desktop\\srctest",
+  "destinationFileLocation": "C:\\Users\\fredjino\\Desktop\\desttest",
+  "addonsFileLocation": "C:\\Users\\fredjino\\Desktop\\srctest2"
 }
